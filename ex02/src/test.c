@@ -18,7 +18,7 @@ int   test_small()
 int   test_long()
 {
   assert(my_strcmp("HELLO WORLD", "HELLA WORLD") > 0);
-  assert(my_strcmp("HELLO WORLD", "HELL WORLD") == 1);
+  assert(my_strcmp("HELLO WORLD", "HELLN WORLD") == 1);
 }
 
 int   main(int argc, char *argv[])
